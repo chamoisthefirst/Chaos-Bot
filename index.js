@@ -12,6 +12,9 @@ const { Client,
   Embed,
 } = require(`discord.js`);
 
+// added this change
+console.log("Lolz");
+
 require("dotenv").config();
 const TOKEN = process.env.DISCORD_TOKEN;
 
